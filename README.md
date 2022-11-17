@@ -1,3 +1,1 @@
-# bash_scripts
-A collection of BASH shell scripts.
-Contains directories that contain code from different shell scripts.
+This is the readme file for the inpath file
