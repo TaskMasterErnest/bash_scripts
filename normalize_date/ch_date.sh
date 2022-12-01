@@ -27,7 +27,7 @@ if [ $# -ne 3 ]; then
     exit 1
 fi
 if [ $3 -le 999 ]; then
-    echo "$0: expected a 4-digit year value" > &2
+    echo "$0: expected a 4-digit year value" >&2
     exit 1
 fi
 
