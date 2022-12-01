@@ -33,7 +33,7 @@ fi
 
 # this next piece checks if the month field contains a number and changes it accordingly.
 # is the month input format a number?
-if [ -z$(echo $1 |sed 's/[[:digit:]]//g') ]; then
+if [ -z $(echo $1 |sed 's/[[:digit:]]//g') ]; then
     monthNumToName $1
 else
 # if the month input is a string
