@@ -59,3 +59,4 @@ fi
 
 nicenumber $1 1  # second arg forces the output to stdout
 exit 0
+
